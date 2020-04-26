@@ -15,16 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="452" translatesAutoresizingMaskIntoConstraints="NO" id="uCA-Nj-diw">
-                                <rect key="frame" x="0.0" y="177" width="414" height="452"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uCA-Nj-diw" id="EB8-1U-IYu">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N7l-Rc-ajT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N7l-Rc-ajT" secondAttribute="bottom" id="8DN-ie-6YU"/>
+                            <constraint firstItem="N7l-Rc-ajT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CPK-Lc-gbI"/>
+                            <constraint firstItem="N7l-Rc-ajT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bMm-kd-SWh"/>
+                            <constraint firstItem="N7l-Rc-ajT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bzy-n6-EtI"/>
+                            <constraint firstItem="N7l-Rc-ajT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qPb-OG-Teq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N7l-Rc-ajT" secondAttribute="trailing" id="vF0-eE-qNT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
