@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		554607332456449E00410E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554607322456449D00410E2B /* ViewController.swift */; };
+		55460736245669A200410E2B /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55460735245669A200410E2B /* PersistenceHelper.swift */; };
 		55C69A0024552239000D3BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C699FF24552239000D3BBA /* AppDelegate.swift */; };
 		55C69A0224552239000D3BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69A0124552239000D3BBA /* SceneDelegate.swift */; };
 		55C69A0724552239000D3BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C69A0524552239000D3BBA /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		554607322456449D00410E2B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55460735245669A200410E2B /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
 		55C699FC24552239000D3BBA /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C699FF24552239000D3BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C69A0124552239000D3BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554607342456698D00410E2B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				55460735245669A200410E2B /* PersistenceHelper.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		55C699F324552239000D3BBA = {
 			isa = PBXGroup;
 			children = (
 				55C699FE24552239000D3BBA /* ToDoApp */,
+				554607342456698D00410E2B /* Persistence */,
 				55C69A152455223B000D3BBA /* ToDoAppTests */,
 				55C699FD24552239000D3BBA /* Products */,
 			);
@@ -203,6 +214,7 @@
 				554607332456449E00410E2B /* ViewController.swift in Sources */,
 				55C69A0024552239000D3BBA /* AppDelegate.swift in Sources */,
 				55C69A0224552239000D3BBA /* SceneDelegate.swift in Sources */,
+				55460736245669A200410E2B /* PersistenceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
